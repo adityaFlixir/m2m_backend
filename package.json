@@ -1,0 +1,45 @@
+{
+  "name": "ITC-BACKEND",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start-nodemon": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.4",
+    "aws-sdk": "^2.918.0",
+    "axios": "^0.19.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-device": "^0.4.2",
+    "express-fileupload": "^1.2.0",
+    "fs": "0.0.1-security",
+    "jade": "^1.11.0",
+    "js-yaml": "^3.12.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^4.2.2",
+    "mongoose": "^5.12.12",
+    "mongoose-increment": "^2.0.0",
+    "morgan": "^1.10.0",
+    "mssql": "^6.3.1",
+    "multer": "^1.4.4",
+    "mysql": "^2.16.0",
+    "ng-circle-progress": "^1.6.0",
+    "node-mysql": "^0.4.2",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "sha256": "^0.2.0",
+    "ssh2-sftp-client": "^5.3.1",
+    "twilio": "^3.49.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}

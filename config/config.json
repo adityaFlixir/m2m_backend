@@ -1,0 +1,7 @@
+{
+  "secret": "M2M",
+  "refreshTokenSecret": "This is another secret",
+  "tokenLife": 86400,
+  "refreshTokenLife": 86400,
+  "hostname": "127.0.0.1:"
+}
